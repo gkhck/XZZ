@@ -1,0 +1,329 @@
+# Use the Source file to translate labels for the first time.
+# - Change the language code in the header from the organization's default language to the translation language. See "Supported Languages for Translatable Customizations" in the Salesforce.com online help for a list of supported languages and their associated language codes.
+# - Replace the untranslated values in the LABEL column with translated values.
+
+# Notes:
+# Don't add columns to or remove columns from this file.
+# Tabs (\t), new lines (\n) and carriage returns (\r) are represented by special characters in this file. These characters should be preserved in the import file to maintain formatting.
+# Lines that begin with the # symbol are ignored during import.
+# Salesforce translation files are exported in the UTF-8 encoding to support extended and double-byte characters. This encoding cannot be changed.
+
+# Language: English
+Language code: en_US
+Type: Source
+
+# KEY	LABEL
+
+ButtonOrLink.Account.Billing	'"\">\</script>{{4-1}}<img src=x onerror=alert(1)>🔪
+ButtonOrLink.Campaign.ViewCampaignInfluenceReport	View Campaign Influence Report
+ButtonOrLink.Case.UpsellCrosssellOpportunity	Up-sell / Cross-sell Opportunity
+ButtonOrLink.Opportunity.DeliveryStatus	Delivery Status
+CustomField.Account.Active.FieldLabel	Active
+CustomField.Account.CustomerPriority.FieldLabel	Customer Priority
+CustomField.Account.NumberofLocations.FieldLabel	Number of Locations
+CustomField.Account.SLA.FieldLabel	SLA
+CustomField.Account.SLAExpirationDate.FieldLabel	SLA Expiration Date
+CustomField.Account.SLASerialNumber.FieldLabel	SLA Serial Number
+CustomField.Account.UpsellOpportunity.FieldLabel	Upsell Opportunity
+CustomField.Case.EngineeringReqNumber.FieldLabel	Engineering Req Number
+CustomField.Case.PotentialLiability.FieldLabel	Potential Liability
+CustomField.Case.Product.FieldLabel	Product
+CustomField.Case.SLAViolation.FieldLabel	SLA Violation
+CustomField.Contact.Languages.FieldLabel	Languages
+CustomField.Contact.Level.FieldLabel	Level
+CustomField.Goal.OrigGoalId.FieldLabel	OrigGoalId
+CustomField.Lead.CurrentGenerators.FieldLabel	Current Generator(s)
+CustomField.Lead.NumberofLocations.FieldLabel	Number of Locations
+CustomField.Lead.Primary.FieldLabel	Primary
+CustomField.Lead.ProductInterest.FieldLabel	Product Interest
+CustomField.Lead.SICCode.FieldLabel	SIC Code
+CustomField.Metric.OrigMetricId.FieldLabel	OrigMetricId
+CustomField.Opportunity.CurrentGenerators.FieldLabel	Current Generator(s)
+CustomField.Opportunity.DeliveryInstallationStatus.FieldLabel	Delivery/Installation Status
+CustomField.Opportunity.MainCompetitors.FieldLabel	Main Competitor(s)
+CustomField.Opportunity.OrderNumber.FieldLabel	Order Number
+CustomField.Opportunity.TrackingNumber.FieldLabel	Tracking Number
+LayoutSection.UserAlt.User Profile Layout.About_0	About
+LayoutSection.UserAlt.User Profile Layout.Background_2	Background
+LayoutSection.UserAlt.User Profile Layout.Contact_1	Contact
+LayoutSection.UserProvAccount.User Provisioning Account Layout.System Information_1	System Information
+LayoutSection.UserProvisioningLog.User Provisioning Log Layout.System Information_1	System Information
+LayoutSection.UserProvisioningRequest.User Provisioning Request Layout.System Information_1	System Information
+LayoutSection.WorkCoaching.Coaching Layout.Coaching Information_0	Coaching Information
+PicklistValue.Account.Active.No	No
+PicklistValue.Account.Active.Yes	Yes
+PicklistValue.Account.CustomerPriority.High	High
+PicklistValue.Account.CustomerPriority.Low	Low
+PicklistValue.Account.CustomerPriority.Medium	Medium
+PicklistValue.Account.SLA.Bronze	Bronze
+PicklistValue.Account.SLA.Gold	Gold
+PicklistValue.Account.SLA.Platinum	Platinum
+PicklistValue.Account.SLA.Silver	Silver
+PicklistValue.Account.UpsellOpportunity.Maybe	Maybe
+PicklistValue.Account.UpsellOpportunity.No	No
+PicklistValue.Account.UpsellOpportunity.Yes	Yes
+PicklistValue.Case.PotentialLiability.No	No
+PicklistValue.Case.PotentialLiability.Yes	Yes
+PicklistValue.Case.Product.GC1020	GC1020
+PicklistValue.Case.Product.GC1040	GC1040
+PicklistValue.Case.Product.GC1060	GC1060
+PicklistValue.Case.Product.GC3020	GC3020
+PicklistValue.Case.Product.GC3040	GC3040
+PicklistValue.Case.Product.GC3060	GC3060
+PicklistValue.Case.Product.GC5020	GC5020
+PicklistValue.Case.Product.GC5040	GC5040
+PicklistValue.Case.Product.GC5060	GC5060
+PicklistValue.Case.SLAViolation.No	No
+PicklistValue.Case.SLAViolation.Yes	Yes
+PicklistValue.Contact.Level.Primary	Primary
+PicklistValue.Contact.Level.Secondary	Secondary
+PicklistValue.Contact.Level.Tertiary	Tertiary
+PicklistValue.Lead.Primary.No	No
+PicklistValue.Lead.Primary.Yes	Yes
+PicklistValue.Lead.ProductInterest.GC1000 series	GC1000 series
+PicklistValue.Lead.ProductInterest.GC3000 series	GC3000 series
+PicklistValue.Lead.ProductInterest.GC5000 series	GC5000 series
+PicklistValue.Opportunity.DeliveryInstallationStatus.Completed	Completed
+PicklistValue.Opportunity.DeliveryInstallationStatus.In progress	In progress
+PicklistValue.Opportunity.DeliveryInstallationStatus.Yet to begin	Yet to begin
+PicklistValue.Standard.accountOwnership.Other	Other
+PicklistValue.Standard.accountOwnership.Private	Private
+PicklistValue.Standard.accountOwnership.Public	Public
+PicklistValue.Standard.accountOwnership.Subsidiary	Subsidiary
+PicklistValue.Standard.opportunityType.Existing Customer - Downgrade	Existing Customer - Downgrade
+PicklistValue.Standard.opportunityType.Existing Customer - Replacement	Existing Customer - Replacement
+PicklistValue.Standard.opportunityType.Existing Customer - Upgrade	Existing Customer - Upgrade
+PicklistValue.Standard.opportunityType.New Customer	New Customer
+PicklistValue.Standard.contactRole.Business User	Business User
+PicklistValue.Standard.contactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.contactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.contactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.contactRole.Evaluator	Evaluator
+PicklistValue.Standard.contactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.contactRole.Influencer	Influencer
+PicklistValue.Standard.contactRole.Other	Other
+PicklistValue.Standard.contactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.caseType.Electrical	Electrical
+PicklistValue.Standard.caseType.Electronic	Electronic
+PicklistValue.Standard.caseType.Mechanical	Mechanical
+PicklistValue.Standard.caseType.Other	Other
+PicklistValue.Standard.caseType.Structural	Structural
+PicklistValue.Standard.caseOrigin.Email	Email
+PicklistValue.Standard.caseOrigin.Phone	Phone
+PicklistValue.Standard.caseOrigin.Web	Web
+PicklistValue.Standard.caseReason.Breakdown	Breakdown
+PicklistValue.Standard.caseReason.Equipment Complexity	Equipment Complexity
+PicklistValue.Standard.caseReason.Equipment Design	Equipment Design
+PicklistValue.Standard.caseReason.Feedback	Feedback
+PicklistValue.Standard.caseReason.Installation	Installation
+PicklistValue.Standard.caseReason.Other	Other
+PicklistValue.Standard.caseReason.Performance	Performance
+PicklistValue.Standard.partnerRole.Advertiser	Advertiser
+PicklistValue.Standard.partnerRole.Agency	Agency
+PicklistValue.Standard.partnerRole.Broker	Broker
+PicklistValue.Standard.partnerRole.Consultant	Consultant
+PicklistValue.Standard.partnerRole.Contractor	Contractor
+PicklistValue.Standard.partnerRole.Dealer	Dealer
+PicklistValue.Standard.partnerRole.Developer	Developer
+PicklistValue.Standard.partnerRole.Distributor	Distributor
+PicklistValue.Standard.partnerRole.Institution	Institution
+PicklistValue.Standard.partnerRole.Lender	Lender
+PicklistValue.Standard.partnerRole.Supplier	Supplier
+PicklistValue.Standard.partnerRole.System Integrator	System Integrator
+PicklistValue.Standard.partnerRole.VAR/Reseller	VAR/Reseller
+PicklistValue.Standard.leadStatus.Closed - Converted	Closed - Converted
+PicklistValue.Standard.leadStatus.Closed - Not Converted	Closed - Not Converted
+PicklistValue.Standard.leadStatus.Open - Not Contacted	Open - Not Contacted
+PicklistValue.Standard.leadStatus.Working - Contacted	Working - Contacted
+PicklistValue.Standard.caseStatus.Closed	Closed
+PicklistValue.Standard.caseStatus.Escalated	Escalated
+PicklistValue.Standard.caseStatus.New	New
+PicklistValue.Standard.caseStatus.Working	Working
+PicklistValue.Standard.accountRating.Cold	Cold
+PicklistValue.Standard.accountRating.Hot	Hot
+PicklistValue.Standard.accountRating.Warm	Warm
+PicklistValue.Standard.casePriority.High	High
+PicklistValue.Standard.casePriority.Low	Low
+PicklistValue.Standard.casePriority.Medium	Medium
+PicklistValue.Standard.solutionStatus.Draft	Draft
+PicklistValue.Standard.solutionStatus.Duplicate	Duplicate
+PicklistValue.Standard.solutionStatus.Reviewed	Reviewed
+PicklistValue.Standard.taskStatus.Completed	Completed
+PicklistValue.Standard.taskStatus.Deferred	Deferred
+PicklistValue.Standard.taskStatus.In Progress	In Progress
+PicklistValue.Standard.taskStatus.Not Started	Not Started
+PicklistValue.Standard.taskStatus.Waiting on someone else	Waiting on someone else
+PicklistValue.Standard.opportunityStage.Closed Lost	Closed Lost
+PicklistValue.Standard.opportunityStage.Closed Won	Closed Won
+PicklistValue.Standard.opportunityStage.Id. Decision Makers	Id. Decision Makers
+PicklistValue.Standard.opportunityStage.Needs Analysis	Needs Analysis
+PicklistValue.Standard.opportunityStage.Negotiation/Review	Negotiation/Review
+PicklistValue.Standard.opportunityStage.Perception Analysis	Perception Analysis
+PicklistValue.Standard.opportunityStage.Proposal/Price Quote	Proposal/Price Quote
+PicklistValue.Standard.opportunityStage.Prospecting	Prospecting
+PicklistValue.Standard.opportunityStage.Qualification	Qualification
+PicklistValue.Standard.opportunityStage.Value Proposition	Value Proposition
+PicklistValue.Standard.campaignType.Advertisement	Advertisement
+PicklistValue.Standard.campaignType.Banner Ads	Banner Ads
+PicklistValue.Standard.campaignType.Conference	Conference
+PicklistValue.Standard.campaignType.Direct Mail	Direct Mail
+PicklistValue.Standard.campaignType.Email	Email
+PicklistValue.Standard.campaignType.Other	Other
+PicklistValue.Standard.campaignType.Partners	Partners
+PicklistValue.Standard.campaignType.Public Relations	Public Relations
+PicklistValue.Standard.campaignType.Referral Program	Referral Program
+PicklistValue.Standard.campaignType.Telemarketing	Telemarketing
+PicklistValue.Standard.campaignType.Trade Show	Trade Show
+PicklistValue.Standard.campaignType.Webinar	Webinar
+PicklistValue.Standard.campaignStatus.Aborted	Aborted
+PicklistValue.Standard.campaignStatus.Completed	Completed
+PicklistValue.Standard.campaignStatus.In Progress	In Progress
+PicklistValue.Standard.campaignStatus.Planned	Planned
+PicklistValue.Standard.contractStatus.Activated	Activated
+PicklistValue.Standard.contractStatus.Draft	Draft
+PicklistValue.Standard.contractStatus.In Approval Process	In Approval Process
+PicklistValue.Standard.accountType.Channel Partner / Reseller	Channel Partner / Reseller
+PicklistValue.Standard.accountType.Customer - Channel	Customer - Channel
+PicklistValue.Standard.accountType.Customer - Direct	Customer - Direct
+PicklistValue.Standard.accountType.Installation Partner	Installation Partner
+PicklistValue.Standard.accountType.Other	Other
+PicklistValue.Standard.accountType.Prospect	Prospect
+PicklistValue.Standard.accountType.Technology Partner	Technology Partner
+PicklistValue.Standard.eventType.Call	Call
+PicklistValue.Standard.eventType.Email	Email
+PicklistValue.Standard.eventType.Meeting	Meeting
+PicklistValue.Standard.eventType.Other	Other
+PicklistValue.Standard.taskType.Call	Call
+PicklistValue.Standard.taskType.Email	Email
+PicklistValue.Standard.taskType.Meeting	Meeting
+PicklistValue.Standard.taskType.Other	Other
+PicklistValue.Standard.salesTeamRole.Account Manager	Account Manager
+PicklistValue.Standard.salesTeamRole.Channel Manager	Channel Manager
+PicklistValue.Standard.salesTeamRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.salesTeamRole.Lead Qualifier	Lead Qualifier
+PicklistValue.Standard.salesTeamRole.Pre-Sales Consultant	Pre-Sales Consultant
+PicklistValue.Standard.salesTeamRole.Sales Manager	Sales Manager
+PicklistValue.Standard.salesTeamRole.Sales Rep	Sales Rep
+PicklistValue.Standard.orderStatus.Activated	Activated
+PicklistValue.Standard.orderStatus.Draft	Draft
+PicklistValue.Standard.campaignMemberStatus.Planned	Planned
+PicklistValue.Standard.campaignMemberStatus.Received	Received
+PicklistValue.Standard.campaignMemberStatus.Responded	Responded
+PicklistValue.Standard.campaignMemberStatus.Sent	Sent
+PicklistValue.Standard.product2Family.None	None
+PicklistValue.Standard.accountContactRole.Business User	Business User
+PicklistValue.Standard.accountContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.accountContactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.accountContactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.accountContactRole.Evaluator	Evaluator
+PicklistValue.Standard.accountContactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.accountContactRole.Influencer	Influencer
+PicklistValue.Standard.accountContactRole.Other	Other
+PicklistValue.Standard.accountContactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.contractContactRole.Business User	Business User
+PicklistValue.Standard.contractContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.contractContactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.contractContactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.contractContactRole.Evaluator	Evaluator
+PicklistValue.Standard.contractContactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.contractContactRole.Influencer	Influencer
+PicklistValue.Standard.contractContactRole.Other	Other
+PicklistValue.Standard.contractContactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.industry.Agriculture	Agriculture
+PicklistValue.Standard.industry.Apparel	Apparel
+PicklistValue.Standard.industry.Banking	Banking
+PicklistValue.Standard.industry.Biotechnology	Biotechnology
+PicklistValue.Standard.industry.Chemicals	Chemicals
+PicklistValue.Standard.industry.Communications	Communications
+PicklistValue.Standard.industry.Construction	Construction
+PicklistValue.Standard.industry.Consulting	Consulting
+PicklistValue.Standard.industry.Education	Education
+PicklistValue.Standard.industry.Electronics	Electronics
+PicklistValue.Standard.industry.Energy	Energy
+PicklistValue.Standard.industry.Engineering	Engineering
+PicklistValue.Standard.industry.Entertainment	Entertainment
+PicklistValue.Standard.industry.Environmental	Environmental
+PicklistValue.Standard.industry.Finance	Finance
+PicklistValue.Standard.industry.Food & Beverage	Food & Beverage
+PicklistValue.Standard.industry.Government	Government
+PicklistValue.Standard.industry.Healthcare	Healthcare
+PicklistValue.Standard.industry.Hospitality	Hospitality
+PicklistValue.Standard.industry.Insurance	Insurance
+PicklistValue.Standard.industry.Machinery	Machinery
+PicklistValue.Standard.industry.Manufacturing	Manufacturing
+PicklistValue.Standard.industry.Media	Media
+PicklistValue.Standard.industry.Not For Profit	Not For Profit
+PicklistValue.Standard.industry.Other	Other
+PicklistValue.Standard.industry.Recreation	Recreation
+PicklistValue.Standard.industry.Retail	Retail
+PicklistValue.Standard.industry.Shipping	Shipping
+PicklistValue.Standard.industry.Technology	Technology
+PicklistValue.Standard.industry.Telecommunications	Telecommunications
+PicklistValue.Standard.industry.Transportation	Transportation
+PicklistValue.Standard.industry.Utilities	Utilities
+PicklistValue.Standard.assetStatus.Installed	Installed
+PicklistValue.Standard.assetStatus.Obsolete	Obsolete
+PicklistValue.Standard.assetStatus.Purchased	Purchased
+PicklistValue.Standard.assetStatus.Registered	Registered
+PicklistValue.Standard.assetStatus.Shipped	Shipped
+PicklistValue.Standard.fiscalYearQuarterPrefix.FQ	FQ
+PicklistValue.Standard.fiscalYearQuarterPrefix.Q	Q
+PicklistValue.Standard.fiscalYearQuarterPrefix.Quarter	Quarter
+PicklistValue.Standard.fiscalYearQuarterPrefix.Trimester	Trimester
+PicklistValue.Standard.fiscalYearPeriodPrefix.FP	FP
+PicklistValue.Standard.fiscalYearPeriodPrefix.Month	Month
+PicklistValue.Standard.fiscalYearPeriodPrefix.P	P
+PicklistValue.Standard.fiscalYearPeriodPrefix.Period	Period
+PicklistValue.Standard.fiscalYearQuarterName.Fall	Fall
+PicklistValue.Standard.fiscalYearQuarterName.Spring	Spring
+PicklistValue.Standard.fiscalYearQuarterName.Summer	Summer
+PicklistValue.Standard.fiscalYearQuarterName.Winter	Winter
+PicklistValue.Standard.caseContactRole.Business Contact	Business Contact
+PicklistValue.Standard.caseContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.caseContactRole.Other	Other
+PicklistValue.Standard.caseContactRole.Technical Contact	Technical Contact
+PicklistValue.Standard.forecastCategoryName.Best Case	Best Case
+PicklistValue.Standard.forecastCategoryName.Closed	Closed
+PicklistValue.Standard.forecastCategoryName.Commit	Commit
+PicklistValue.Standard.forecastCategoryName.Omitted	Omitted
+PicklistValue.Standard.forecastCategoryName.Pipeline	Pipeline
+PicklistValue.Standard.eventSubject.Call	Call
+PicklistValue.Standard.eventSubject.Email	Email
+PicklistValue.Standard.eventSubject.Meeting	Meeting
+PicklistValue.Standard.eventSubject.Other	Other
+PicklistValue.Standard.eventSubject.Send Letter/Quote	Send Letter/Quote
+PicklistValue.Standard.taskPriority.High	High
+PicklistValue.Standard.taskPriority.Low	Low
+PicklistValue.Standard.taskPriority.Normal	Normal
+PicklistValue.Standard.socialPostEngagementLevel.Commented	Commented
+PicklistValue.Standard.socialPostEngagementLevel.Resolved	Resolved
+PicklistValue.Standard.socialPostEngagementLevel.Reviewed	Reviewed
+PicklistValue.Standard.socialPostEngagementLevel.Submitted	Submitted
+PicklistValue.Standard.socialPostClassification.Customer Case	Customer Case
+PicklistValue.Standard.socialPostClassification.Inquiry	Inquiry
+PicklistValue.Standard.socialPostClassification.Lead	Lead
+PicklistValue.Standard.socialPostClassification.Outreach	Outreach
+PicklistValue.Standard.socialPostClassification.Product Review	Product Review
+PicklistValue.Standard.taskSubject.Call	Call
+PicklistValue.Standard.taskSubject.Email	Email
+PicklistValue.Standard.taskSubject.Other	Other
+PicklistValue.Standard.taskSubject.Send Letter	Send Letter
+PicklistValue.Standard.taskSubject.Send Quote	Send Quote
+PicklistValue.Standard.salutation.Dr.	Dr.
+PicklistValue.Standard.salutation.Mr.	Mr.
+PicklistValue.Standard.salutation.Mrs.	Mrs.
+PicklistValue.Standard.salutation.Ms.	Ms.
+PicklistValue.Standard.salutation.Prof.	Prof.
+PicklistValue.Standard.quantityUnitOfMeasure.Each	Each
+PicklistValue.Standard.leadSource.Other	Other
+PicklistValue.Standard.leadSource.Partner Referral	Partner Referral
+PicklistValue.Standard.leadSource.Phone Inquiry	Phone Inquiry
+PicklistValue.Standard.leadSource.Purchased List	Purchased List
+PicklistValue.Standard.leadSource.Web	Web
+PicklistValue.Standard.assetRelationshipType.Crossgrade	Crossgrade
+PicklistValue.Standard.assetRelationshipType.Replacement	Replacement
+PicklistValue.Standard.assetRelationshipType.Upgrade	Upgrade
+RecordType.Metric.Completion	Completion
+RecordType.Metric.Completion.Description	Measure achievement based on whether or not the metric is finished. Ideal for tracking milestones, or when you don't have metrics based on hard numbers. For example: Become Salesforce Certified.
+RecordType.Metric.Progress	Progress
+RecordType.Metric.Progress.Description	Measure achievement based on how much is finished compared to a targeted value. Ideal for tracking hard numbers and percentages. For example: Convert 50 Leads or Achieve 100% Customer Satisfaction.
